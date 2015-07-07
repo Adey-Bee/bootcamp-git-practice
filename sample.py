@@ -3,7 +3,16 @@ def unique(l):
 	'''
 	This function generate a list of unique values from l
 	'''
-	pass
+	for value in l:
+    		n = 0
+    	for j in l:
+        	if value == j:
+            		n = 1
+            
+    		if n == 0:
+       			 l.append(value)
+	return l
+
 
 def reverse(s):
 	'''
@@ -31,15 +40,16 @@ def frequency(needle, haystack):
 	'''
 	This function returns the number of times needle appears in haystack
 	'''
-	lists = [2,3,3,8,9,3,4,3,3,5,6,3,3,2,5]
-	n = 0
-	for 3 in lists:
-		if needle == 3
-		n++
-		print n
+	pass
 
 def sort(l):
 	'''
 	This function returns a sorted version of l
 	'''
 	pass
+
+
+def square(n):
+    squared = n**2
+    
+    return squared
