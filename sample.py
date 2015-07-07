@@ -17,6 +17,7 @@ def intersection(a,b):
 	'''
 	pass
 
+
 def generate(steps):
 	pass
 
@@ -30,7 +31,12 @@ def frequency(needle, haystack):
 	'''
 	This function returns the number of times needle appears in haystack
 	'''
-	pass
+	lists = [2,3,3,8,9,3,4,3,3,5,6,3,3,2,5]
+	n = 0
+	for 3 in lists:
+		if needle == 3
+		n++
+		print n
 
 def sort(l):
 	'''
